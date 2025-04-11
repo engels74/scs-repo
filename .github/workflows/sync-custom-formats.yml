@@ -47,6 +47,8 @@ jobs:
           SONARR_002_API_KEY: ${{ secrets.SONARR_002_API_KEY }}
           SONARR_003_URL: ${{ secrets.SONARR_003_URL }}
           SONARR_003_API_KEY: ${{ secrets.SONARR_003_API_KEY }}
+          SONARR_004_URL: ${{ secrets.SONARR_004_URL }}
+          SONARR_004_API_KEY: ${{ secrets.SONARR_004_API_KEY }}
         run: |
           python sync_script.py
           if [ $? -ne 0 ]; then
