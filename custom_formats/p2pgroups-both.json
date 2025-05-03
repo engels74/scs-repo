@@ -21,7 +21,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "-MANDAK|-NorTekst"
+        "value": "-MANDAK|-NorTekst|-WhiskeyJack"
       }
     }
   ]
